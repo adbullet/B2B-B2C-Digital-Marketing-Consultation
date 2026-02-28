@@ -33,7 +33,7 @@ const HeroSection = () => {
             >
               <Sparkles className="text-gold w-5 h-5" />
               <span className="text-gradient-gold font-bold text-lg">
-                Book Your Strategy Call – Just @ ₹299
+                Book Your Strategy Call – Just @ ₹2999
               </span>
             </a>
 
