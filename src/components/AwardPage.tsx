@@ -5,14 +5,20 @@ const AwardPage = () => {
     <section className="bg-black text-white py-24">
 
       <div className="container mx-auto px-6 max-w-6xl">
+      <h2 className="font-display text-3xl md:text-4xl font-extrabold text-center mb-4 text-foreground">
+        Awards & <span className="text-gradient-gold">Recognition</span>
+      </h2>
+      <p className="text-center text-muted-foreground mb-12 max-w-xl mx-auto">
+        Industry-recognized excellence in digital marketing performance.
+      </p>
 
         {/* Heading */}
         <div className="text-center mb-16">
-          <h1 className="text-3xl md:text-5xl font-extrabold font-display leading-tight">
+          <h4 className="text-2xl md:text-2xl font-extrabold font-display leading-tight">
             Honoured by{" "}
-            <span className="text-yellow-400">Bipasha Basu</span> <br />
+            <span className="text-yellow-400">Bipasha Basu </span>
             at the Indian Business Awards 2025
-          </h1>
+          </h4>
 
           <p className="text-gray-400 mt-6 max-w-3xl mx-auto text-lg">
             Recognized as the <span className="text-yellow-400 font-semibold">

@@ -3,15 +3,15 @@ import HeroSection from "@/components/HeroSection";
 import TrustSection from "@/components/TrustSection";
 import FeaturedMediaSection from "@/components/FeaturedMediaSection";
 import CaseStudiesSection from "@/components/CaseStudiesSection";
-import AwardsSection from "@/components/AwardsSection";
+// import AwardsSection from "@/components/AwardsSection";
 import WhatYouGetSection from "@/components/WhatYouGetSection";
 // import WhoIsThisForSection from "@/components/WhoIsThisForSection";
-import BookingSection from "@/components/BookingSection";
 import WhyChooseSection from "@/components/WhyChooseSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import FinalCTASection from "@/components/FinalCTASection";
 import VideoGallery from "@/components/VideoGallery";
 import AwardPage from "@/components/AwardPage";
+import BookingSection from "@/components/BookingSection";
 
 // import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -23,14 +23,14 @@ const Index = () => (
     <TrustSection />
     <FeaturedMediaSection />
     <CaseStudiesSection />
-    <AwardsSection />
+    <AwardPage />
+    {/* <AwardsSection /> */}
     <WhatYouGetSection />
     {/* <WhoIsThisForSection /> */}
-    <BookingSection />
     <WhyChooseSection />
     <TestimonialsSection />
     <VideoGallery />
-    <AwardPage />
+    <BookingSection />
     <FinalCTASection />
     {/* <WhatsAppButton /> */}
     <footer className="bg-navy-deep border-t border-border py-8 text-center">
