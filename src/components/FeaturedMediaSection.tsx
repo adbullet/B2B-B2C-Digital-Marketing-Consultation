@@ -4,12 +4,17 @@ import mediaAni from "@/assets/media-ani.jpeg";
 import mediaMidday from "@/assets/media-midday.jpeg";
 import mediaTheprint from "@/assets/media-theprint.jpeg";
 
+import topTen from "@/assets/top-10.jpeg";
+
+
 const mediaItems = [
   { img: mediaTheprint, label: "The Print", border: "border-yellow-400" },
   { img: mediaRepublic, label: "Republic News", border: "border-green-500" },
   { img: mediaMidday, label: "Mid-Day", border: "border-white" },
   { img: mediaAni, label: "ANI News", border: "border-yellow-400" },
   { img: mediaDailyhunt, label: "Daily Hunt", border: "border-green-500" },
+  { img: topTen, label: "Top Ranking", border: "border-red-500" },
+
 ];
 
 const ARTICLE_URL =

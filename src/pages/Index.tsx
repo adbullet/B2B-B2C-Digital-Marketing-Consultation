@@ -22,6 +22,7 @@ const Index = () => (
     <HeroSection />
     <TrustSection />
     <FeaturedMediaSection />
+    <VideoGallery />
     <CaseStudiesSection />
     <AwardPage />
     {/* <AwardsSection /> */}
@@ -29,7 +30,6 @@ const Index = () => (
     {/* <WhoIsThisForSection /> */}
     <WhyChooseSection />
     <TestimonialsSection />
-    <VideoGallery />
     <BookingSection />
     <FinalCTASection />
     {/* <WhatsAppButton /> */}
