@@ -30,9 +30,9 @@ const HeroSection = () => {
 
             {/* Headline */}
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-foreground">
-              B2B / B2C{" "}
+              Ads Running. Budget Spending.{" "}
               <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">
-                Digital Marketing
+                But Not Getting Results?
               </span>{" "}
               Consultation
             </h1>
