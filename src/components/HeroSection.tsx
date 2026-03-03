@@ -34,7 +34,7 @@ const HeroSection = () => {
               <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">
                 But Not Getting Results?
               </span>{" "}
-              Consultation
+              
             </h1>
 
             {/* Subtext */}
