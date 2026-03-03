@@ -39,7 +39,7 @@ const HeroSection = () => {
 
             {/* Subtext */}
             <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
-              Know the right budget, platform & growth strategy before you invest a single rupee.
+              Book a Strategic Discovery Call Today.
             </p>
 
             {/* CTA BUTTONS */}
