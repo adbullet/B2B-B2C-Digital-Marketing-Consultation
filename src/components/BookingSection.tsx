@@ -40,7 +40,7 @@ const BookingSection = () => {
           <div className="inline-flex items-center gap-3 border border-gold rounded-full px-6 py-3 gold-glow">
             <Sparkles className="w-5 h-5 text-gold" />
             <span className="text-gradient-gold font-bold text-lg">
-              Strategy Consultation – ₹2999 Only
+              Strategy Consultation – ₹199 Only
             </span>
           </div>
         </div>

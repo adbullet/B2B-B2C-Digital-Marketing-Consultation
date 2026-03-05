@@ -12,19 +12,21 @@ import FinalCTASection from "@/components/FinalCTASection";
 import VideoGallery from "@/components/VideoGallery";
 import AwardPage from "@/components/AwardPage";
 import BookingSection from "@/components/BookingSection";
+import TimedPopup from "@/components/TimedPopup";
 
 // import WhatsAppButton from "@/components/WhatsAppButton";
 
 
 const Index = () => (
   <>
+    <TimedPopup />
     <StickyHeader />
     <HeroSection />
     <TrustSection />
+    <AwardPage />
     <FeaturedMediaSection />
     <VideoGallery />
     <CaseStudiesSection />
-    <AwardPage />
     {/* <AwardsSection /> */}
     <WhatYouGetSection />
     {/* <WhoIsThisForSection /> */}

@@ -19,7 +19,7 @@ const FinalCTASection = () => {
           onClick={handleRedirect}
           className="bg-primary text-white font-bold text-lg px-12 py-5 rounded-xl"
         >
-          Book Your Call Now – ₹2999
+          Book Your Call Now – ₹199
         </button>
       </div>
     </section>
