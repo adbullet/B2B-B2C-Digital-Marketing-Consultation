@@ -43,26 +43,22 @@ const HeroSection = () => {
             </div>
 
             {/* Headline */}
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-foreground">
-              Ads Running. Budget Spending.{" "}
+            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-foreground">
+              Signal Based Digital Marketing by{" "}
               <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">
-                But Not Getting Results?
-              </span>{" "}
-              
-            </h1>
+                Google Partner & Meta Partner Agency
+              </span>
+            </h2>
 
             {/* Subtext */}
-            <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
-              Book a Strategic Discovery Call Today.
+            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
+              Scale with platform-led strategy, campaign execution, and lead generation support tailored to your business goals.
             </p>
 
             <div className="max-w-2xl rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-md">
               <div className="space-y-4 text-left">
                 <div>
-                  <p className="text-xl font-bold text-foreground">
-                    Signal Based Digital Marketing by Google Partner & Meta Partner Agency
-                  </p>
-                  <p className="mt-2 text-sm font-semibold uppercase tracking-[0.2em] text-gold">
+                  <p className="text-sm font-semibold uppercase tracking-[0.2em] text-gold">
                     Minimum Ad Spend Rs. 30,000 / Month
                   </p>
                 </div>
