@@ -28,7 +28,7 @@ const TimedPopup = () => {
             <div className="inline-flex items-center gap-2 rounded-full border border-gold px-4 py-2 gold-glow">
               <Sparkles className="h-4 w-4 text-gold" />
               <span className="text-gradient-gold text-sm font-bold">
-                {"Strategy Consultation \u2013 \u20B9199 Only"}
+                {"Book a call"}
               </span>
             </div>
           </div>

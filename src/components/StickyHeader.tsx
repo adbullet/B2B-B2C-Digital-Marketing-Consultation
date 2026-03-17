@@ -30,7 +30,7 @@ const StickyHeader = () => {
           rel="noopener noreferrer"
           className="bg-primary text-primary-foreground font-semibold px-5 py-2 rounded-lg text-sm hover:bg-purple-light transition-colors inline-block text-center"
         >
-          Book Your Call – ₹199
+          Book a call
         </a>
       </div>
     </header>
