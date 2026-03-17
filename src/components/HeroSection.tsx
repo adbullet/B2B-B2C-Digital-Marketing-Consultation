@@ -6,6 +6,20 @@ const metrics = [
   { value: "20M+", label: "Leads Generated" },
 ];
 
+const adPlatforms = [
+  "YouTube Ads",
+  "Search Ads",
+  "Meta Ads",
+  "LinkedIn Ads",
+  "Twitter Ads",
+];
+
+const serviceOfferings = [
+  "SEO",
+  "Social Media Management",
+  "Lead Generation",
+];
+
 const HeroSection = () => {
   return (
     <section className="bg-hero-gradient relative overflow-hidden pt-28 pb-24">
@@ -41,6 +55,51 @@ const HeroSection = () => {
             <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
               Book a Strategic Discovery Call Today.
             </p>
+
+            <div className="max-w-2xl rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-md">
+              <div className="space-y-4 text-left">
+                <div>
+                  <p className="text-xl font-bold text-foreground">
+                    Signal Based Digital Marketing by Google Partner & Meta Partner Agency
+                  </p>
+                  <p className="mt-2 text-sm font-semibold uppercase tracking-[0.2em] text-gold">
+                    Minimum Ad Spend Rs. 30,000 / Month
+                  </p>
+                </div>
+
+                <div>
+                  <p className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+                    Ad Platforms
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {adPlatforms.map((platform) => (
+                      <span
+                        key={platform}
+                        className="rounded-full border border-gold/30 bg-gold/10 px-4 py-2 text-sm font-medium text-foreground"
+                      >
+                        {platform}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <p className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+                    Services
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {serviceOfferings.map((service) => (
+                      <span
+                        key={service}
+                        className="rounded-full border border-border bg-background/40 px-4 py-2 text-sm font-medium text-foreground"
+                      >
+                        {service}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
 
             {/* CTA BUTTONS */}
             <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
